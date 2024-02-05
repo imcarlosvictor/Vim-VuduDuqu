@@ -9,6 +9,7 @@ endif
 let colors_name = "vududuqu"
 
 " #00c8f5
+" #4b9cd3
 
 " Vim >= 7.0 specific colors
 if version >= 700
@@ -35,24 +36,22 @@ hi SignColumn    guibg=#0d0d0d
 
 " Syntax highlighting
 hi Comment 		   guifg=#606060 gui=italic ctermfg=244
-hi Todo 		   guifg=#8f8f8f gui=none ctermfg=245
-hi Boolean         guifg=#4b9cd3 gui=none ctermfg=148
-" hi String 		   guifg=#c4a7e7 gui=none ctermfg=148
-hi String 		   guifg=#4b9cd3 gui=none ctermfg=148
-hi Identifier 	   guifg=#4b9cd3 gui=none ctermfg=148
+hi Boolean         guifg=#a1c6fe gui=none ctermfg=148
+hi String 		   guifg=#a1c6fe gui=none ctermfg=148
+hi Identifier 	   guifg=#a1c6fe gui=none ctermfg=148
 hi Function 	   guifg=#837ffe gui=none ctermfg=255
 hi Type 		   guifg=#778899 gui=none ctermfg=103
 hi Statement 	   guifg=#778899 gui=none ctermfg=103
 hi Keyword		   guifg=#778899 gui=none ctermfg=208
-hi Constant 	   guifg=#ff9f00 gui=none  ctermfg=208
-hi Number		   guifg=#4b9cd3 gui=none ctermfg=208
+hi Constant 	   guifg=#2ab597 gui=none  ctermfg=208
+hi Number		   guifg=#a1c6fe gui=none ctermfg=208
 hi Special		   guifg=#aeae9d gui=none ctermfg=208
-hi PreProc 		   guifg=#aeae9d gui=none ctermfg=230
+hi PreProc 		   guifg=#f0375d gui=none ctermfg=230
 hi Todo            guifg=#0d0d0d  guibg=#39ff14 gui=none
 
 " Code-specific colors
-hi pythonImport    guifg=#aeae9d gui=none ctermfg=255
-hi pythonException guifg=#ff7eba gui=none ctermfg=200
+hi pythonImport    guifg=#f0375d gui=none ctermfg=255
+hi pythonException guifg=#f0375d gui=none ctermfg=200
 hi pythonOperator  guifg=#7e8aa2 gui=none ctermfg=103
 hi pythonBuiltinFunction guifg=#aeae9d gui=none ctermfg=200
 hi pythonExClass   guifg=#ff7eba gui=none ctermfg=200
