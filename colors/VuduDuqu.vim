@@ -46,12 +46,13 @@ hi Keyword		   guifg=#778899 gui=none ctermfg=208
 hi Constant 	   guifg=#2ab597 gui=none  ctermfg=208
 hi Number		   guifg=#a1c6fe gui=none ctermfg=208
 hi Special		   guifg=#aeae9d gui=none ctermfg=208
-hi PreProc 		   guifg=#f0375d gui=none ctermfg=230
+hi PreProc 		   guifg=#2ab597 gui=none ctermfg=230
 hi Todo            guifg=#0d0d0d  guibg=#39ff14 gui=none
 
 " Code-specific colors
-hi pythonImport    guifg=#f0375d gui=none ctermfg=255
+hi pythonImport    guifg=#2ab597 gui=none ctermfg=255
 hi pythonException guifg=#f0375d gui=none ctermfg=200
 hi pythonOperator  guifg=#7e8aa2 gui=none ctermfg=103
 hi pythonBuiltinFunction guifg=#aeae9d gui=none ctermfg=200
-hi pythonExClass   guifg=#ff7eba gui=none ctermfg=200
+" hi pythonExClass   guifg=#ff7eba gui=none ctermfg=200
+hi pythonExClass   guifg=#fc9e21 gui=none ctermfg=200
