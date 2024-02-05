@@ -6,7 +6,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "vududuqu"
+let colors_name = "VuduDuqu"
 
 " #00c8f5
 " #4b9cd3
