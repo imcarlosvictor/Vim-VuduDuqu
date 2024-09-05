@@ -36,15 +36,15 @@ hi SignColumn    guibg=#0f1014
 
 " Syntax highlighting
 hi Comment 		   guifg=#606060 gui=italic ctermfg=244
-hi Boolean         guifg=#6bb6fa gui=none ctermfg=148
-hi String 		   guifg=#6bb6fa gui=none ctermfg=148
-hi Identifier 	   guifg=#6bb6fa gui=none ctermfg=148
+hi Boolean         guifg=#8ab8fe gui=none ctermfg=148
+hi String 		   guifg=#8ab8fe gui=none ctermfg=148
+hi Identifier 	   guifg=#8ab8fe gui=none ctermfg=148
 hi Function 	   guifg=#837ffe gui=none ctermfg=255
 hi Type 		   guifg=#778899 gui=none ctermfg=103
 hi Statement 	   guifg=#778899 gui=none ctermfg=103
 hi Keyword		   guifg=#778899 gui=none ctermfg=208
 hi Constant 	   guifg=#f0375d gui=none  ctermfg=208
-hi Number		   guifg=#6bb6fa gui=none ctermfg=208
+hi Number		   guifg=#8ab8fe gui=none ctermfg=208
 hi Special		   guifg=#aeae9d gui=none ctermfg=208
 hi PreProc 		   guifg=#aaac91 gui=none ctermfg=230
 hi Todo            guifg=#0f1014  guibg=#39ff14 gui=none
